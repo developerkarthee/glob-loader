@@ -1,7 +1,7 @@
 {
-  "name": "glob-loader",
+  "name": "node-glob-loader",
   "version": "0.3.0",
-  "description": "webpack loader to load files at once with glob",
+  "description": "webpack loader to load files at once with glob from node_modules folder",
   "main": "index.js",
   "scripts": {
     "pretest": "webpack --config ./test/sample/webpack.config.js",
