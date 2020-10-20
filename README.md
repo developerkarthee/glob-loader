@@ -1,4 +1,4 @@
-# glob-loader [![npm version](https://badge.fury.io/js/glob-loader.svg)](http://badge.fury.io/js/glob-loader)
+# node-glob-loader [![npm version](https://badge.fury.io/js/glob-loader.svg)](http://badge.fury.io/js/glob-loader)
 webpack loader to load files at once with glob
 
 [![Build Status](https://travis-ci.org/seanchas116/glob-loader.svg?branch=master)](https://travis-ci.org/seanchas116/glob-loader)
@@ -6,7 +6,7 @@ webpack loader to load files at once with glob
 ## Install
 
 ```
-npm install --save-dev glob-loader
+npm install --save-dev node-glob-loader
 ```
 
 ## Use
@@ -26,7 +26,7 @@ Pattern is relative to the file directory.
 ### Require patterns
 
 ```js
-var modules = require("glob-loader!./dir.pattern");
+var modules = require("node-glob-loader!./dir.pattern");
 ```
 
 ## TODO
